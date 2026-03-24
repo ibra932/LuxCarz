@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+/* ===== MA NAV BAR ======*/
+.navbar {
+  border: 0;
+  z-index: 9999;
+  letter-spacing: 4px;
+}
+
+.logo {
+  display: none;
+  height: auto;
+  width: 52px;
+  padding-top: 1px;
+  margin-right: 15px;
+}
+
+.navbar-brand>img {
+height: 100%;
+padding: 15px; /* firefox bug fix */
+width: auto;
+}
+.navbar .nav > li > a {
+line-height: 50px;
+}
+
+.navbar-header h1 {
+  letter-spacing: 1px;
+  color: black !important;
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+  font-size: 66px;
+}
+
+.navbar li a, .navbar {
+  color: black !important;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.6s 0s;
+}
+
+.navbar-toggle {
+  background-color: transparent !important;
+  border: 0;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: red !important;
+}
+ul { 
+display: block;
+list-style-type: none;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+}
+
+.navbar>.container {
+  align-items:center;
+  display: block;
+  min-height: 3.25rem;
+  width: 100%;
+}
+.row2 {
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
+.col-lg {
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+.titre {
+  font-family: 'Rajdhani';
+  color: #000;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*COLONNE*/ 
+
+.column {
+  width: 80%;
+  margin-bottom: 5px;
+  padding: 0 150px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  }
+
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(255, 1, 1);
+}
